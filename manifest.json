@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Playback Control Extension",
+    "version": "1.0",
+    "description": "Add controls to videos and remove autoplay on certain websites.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["https://sy*/*/student/courses/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
