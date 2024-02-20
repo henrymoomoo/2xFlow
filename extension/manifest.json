@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Playback Control Extension",
-  "version": "1.0",
+  "name": "Canvas Video 2x",
+  "version": "1.1",
   "description": "Add controls to videos and remove autoplay on certain websites.",
   "permissions": ["activeTab"],
   "content_scripts": [
